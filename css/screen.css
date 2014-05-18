@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+@import 'http://yui.yahooapis.com/pure/0.4.2/pure-min.css';
+body {
+  font: 13px/100% Baskerville, Georgia, serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", Helvetica Neue, Helvetica, sans-serif; }
+
+h4 {
+  border-top: 2px solid #bbb;
+  color: #bbb;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding-top: 5px;
+  text-transform: uppercase; }
+
+p,
+ul,
+li,
+.list-header,
+.list-subheader {
+  font-family: Garamond, Baskerville;
+  line-height: 150%; }
+
+.list-header {
+  color: #222;
+  display: block;
+  font-weight: 600; }
+  .list-header span {
+    color: #999;
+    float: right;
+    font-weight: 400; }
+
+.container {
+  margin: 0 auto;
+  width: 80%; }
+  .container .block {
+    padding: 20px; }
+    .container .block .header-container {
+      width: 100%; }
+    .container .block ul {
+      margin: 0 0 10px 0;
+      padding: 0 100px 0 0; }
