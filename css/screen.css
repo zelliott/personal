@@ -91,14 +91,16 @@ a {
     content: "•"; }
 
 .btn {
-  background-color: #a9cbd9;
-  border-bottom: 2px solid #7698a6;
+  border: 2px solid #bbb;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  color: #fff;
+  color: #bbb;
   display: inline-block;
   font-size: 10px;
   font-weight: 600;
   padding: 10px;
   text-transform: uppercase; }
+  .btn:hover {
+    border-color: #888888;
+    color: #888888; }

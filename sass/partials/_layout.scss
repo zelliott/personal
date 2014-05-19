@@ -43,15 +43,19 @@
 }
 
 .btn {
-  background-color: $periwinkle;
-  border-bottom: 2px solid $periwinkle - #333;
+  //background-color: #ccc;
+  border: 2px solid #bbb;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  color: #fff;
+  color: #bbb;
   display: inline-block;
   font-size: 10px;
   font-weight: 600;
   padding: 10px;
   text-transform: uppercase;
+  &:hover {
+    border-color: #bbb - #333;
+    color: #bbb - #333;
+  }
 }
