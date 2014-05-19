@@ -95,16 +95,15 @@ a {
     content: "•"; }
 
 .btn {
-  border: 2px solid #bbb;
+  background-color: #ccc;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  color: #bbb;
+  color: #fff;
   display: inline-block;
   font-size: 10px;
   font-weight: 600;
   padding: 10px;
   text-transform: uppercase; }
   .btn:hover {
-    border-color: #888888;
-    color: #888888; }
+    background-color: #bbb; }
