@@ -3,9 +3,16 @@
   width: 80%;
   .title-block {
     margin: 25px 0 25px 0;
-  }
-  .projects-block {
-    margin: 97px 0 0 0;
+    a {
+      &:hover {
+        color: $navy - #333;
+      }
+    }
+    span {
+      color: $navy;
+      font-weight: 400;
+      margin: 0;
+    }
   }
   .block {
     padding: 0 20px;
@@ -20,4 +27,31 @@
       padding: 0 100px 0 0;
     }
   }
+  .min-height-block {
+    min-height: 120px;
+  }
+}
+
+.separator {
+  color: $blue;
+  display: inline-block;
+  font-weight: 400;
+  margin-left: 10px;
+  &:after {
+    content: "•";
+  }
+}
+
+.btn {
+  background-color: $periwinkle;
+  border-bottom: 2px solid $periwinkle - #333;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 10px;
+  text-transform: uppercase;
 }

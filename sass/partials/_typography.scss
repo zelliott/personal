@@ -36,6 +36,10 @@ li,
   line-height: 150%;
 }
 
+p {
+  margin: 0;
+}
+
 .list-header {
   color: #222;
   display: block;
@@ -43,16 +47,15 @@ li,
   span {
     color: #999;
     float: right;
+    font-size: 10px;
     font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+    width: 100px;
   }
 }
 
 a {
   color: inherit;
-}
-
-span {
-  color: $navy;
-  font-weight: 400;
-  margin: 0;
+  text-decoration: none;
 }
