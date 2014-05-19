@@ -65,7 +65,7 @@ a {
 .container {
   margin: 0 auto;
   width: 80%; }
-  @media screen and (max-width: 767px) {
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .container .pure-u-1-2 {
       width: 100%; } }
   .container .title-block {
