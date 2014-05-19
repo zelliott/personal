@@ -36,7 +36,8 @@ li,
   line-height: 150%; }
 
 p {
-  margin: 0; }
+  margin: 0;
+  padding-right: 100px; }
 
 .list-header {
   color: #222;
@@ -64,6 +65,9 @@ a {
 .container {
   margin: 0 auto;
   width: 80%; }
+  @media screen and (max-width: 767px) {
+    .container .pure-u-1-2 {
+      width: 100%; } }
   .container .title-block {
     margin: 25px 0 25px 0; }
     .container .title-block a:hover {
