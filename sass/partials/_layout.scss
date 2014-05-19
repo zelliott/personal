@@ -1,8 +1,14 @@
 .container {
   margin: 0 auto;
   width: 80%;
+  .title-block {
+    margin: 25px 0 25px 0;
+  }
+  .projects-block {
+    margin: 97px 0 0 0;
+  }
   .block {
-    padding: 20px;
+    padding: 0 20px;
     .header-container {
       width: 100%;
     }
