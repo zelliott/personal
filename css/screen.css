@@ -1,60 +1,48 @@
-@charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
 @import 'http://yui.yahooapis.com/pure/0.4.2/pure-min.css';
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Open Sans', Helvetica Neue, Helvetica, sans-serif; }
-
-h1 {
-  color: #274551;
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0; }
-
-h4 {
-  border-top: 2px solid #bbb;
-  color: #bbb;
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 700;
-  padding-top: 5px;
-  margin: 40px 0 20px 0;
-  text-transform: uppercase; }
-
-p,
-span,
-ul,
-li,
-.list-header,
-.list-subheader {
-  font-family: Garamond, Baskerville, serif;
-  font-size: 13px;
-  line-height: 150%; }
-
-p {
-  margin: 0;
-  padding-right: 100px; }
-
-.list-header {
-  color: #222;
-  display: block;
-  font-weight: 600; }
-  .list-header span {
-    color: #999;
-    float: right;
-    font-size: 10px;
-    font-weight: 400;
-    text-align: right;
-    text-transform: uppercase;
-    width: 100px; }
+body {
+  color: #333;
+  font-family: Avenir, Helvetica Neue, Helvetica, sans-serif; }
 
 a {
   color: inherit;
   text-decoration: none; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-family: Baskerville;
+  font-weight: 600;
+  margin: 0; }
+  h2 span {
+    color: #999;
+    font-family: Avenir, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300; }
+
+h3 {
+  color: #999;
+  font-family: Avenir, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 5px 0;
+  text-transform: uppercase; }
+
+p {
+  color: #444;
+  font-family: Baskerville;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0; }
+  p a {
+    color: #4c869e; }
+    p a:hover {
+      text-decoration: underline; }
+
+p.bio {
+  font-size: 26px;
+  line-height: 34px; }
 
 .fa-left {
   margin-right: 10px; }
@@ -62,48 +50,56 @@ a {
 .fa-right {
   margin-left: 10px; }
 
+.float-l {
+  float: left; }
+
+.float-r {
+  float: right; }
+
 .container {
-  margin: 0 auto;
-  width: 80%; }
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .container .pure-u-1-2 {
-      width: 100%; } }
-  .container .title-block {
-    margin: 25px 0 25px 0; }
-    .container .title-block a:hover {
-      color: #00121e; }
-    .container .title-block span {
-      color: #274551;
-      font-weight: 400;
-      margin: 0; }
-  .container .block {
-    padding: 0 20px; }
-    .container .block .header-container {
-      width: 100%; }
-    .container .block ul {
-      margin: 0 0 10px 0;
-      padding: 0 100px 0 0; }
-  .container .min-height-block {
-    min-height: 120px; }
-
-.separator {
-  color: #4c869e;
-  display: inline-block;
-  font-weight: 400;
-  margin-left: 10px; }
-  .separator:after {
-    content: "•"; }
-
-.btn {
-  background-color: #ccc;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  color: #fff;
-  display: inline-block;
-  font-size: 10px;
-  font-weight: 600;
-  padding: 10px;
-  text-transform: uppercase; }
-  .btn:hover {
-    background-color: #bbb; }
+  margin: 0 auto; }
+  .container .sidebar {
+    background-color: #eee;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0; }
+    .container .sidebar .logo {
+      color: #333;
+      cursor: default;
+      font-weight: 500;
+      padding: 40px; }
+    .container .sidebar .menu > div {
+      border-left: 5px solid #eee;
+      color: #999;
+      cursor: pointer;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 10px 40px 10px 35px;
+      text-align: center;
+      text-transform: uppercase; }
+      .container .sidebar .menu > div:hover {
+        color: #666; }
+    .container .sidebar .menu .on {
+      border-left-color: #4c869e;
+      background-color: #fff;
+      color: #4c869e; }
+      .container .sidebar .menu .on:hover {
+        color: #4c869e; }
+  .container .content {
+    margin-left: 161px;
+    padding: 102px 80px 0 80px; }
+    .container .content .about-content {
+      height: 100vh;
+      margin: auto;
+      width: 800px; }
+    .container .content .work-content div {
+      margin-bottom: 80px; }
+      .container .content .work-content div .description {
+        display: inline-block;
+        width: 30%; }
+        .container .content .work-content div .description p {
+          margin: 20px 0 0 0; }
+      .container .content .work-content div img {
+        box-shadow: 0px 0px 1px #999;
+        width: 60%; }

@@ -1,64 +1,64 @@
 .container {
   margin: 0 auto;
-  width: 80%;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .pure-u-1-2 {
-      width: 100%;
+  .sidebar {
+    background-color: #eee;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    .logo {
+      color: #333;
+      cursor: default;
+      font-weight: 500;
+      padding: 40px;
     }
-  }
-  .title-block {
-    margin: 25px 0 25px 0;
-    a {
-      &:hover {
-        color: $navy - #333;
+    .menu {
+      > div {
+        border-left: 5px solid #eee;
+        color: #999;
+        cursor: pointer;
+        font-size: 11px;
+        font-weight: 600;
+        padding: 10px 40px 10px 35px;
+        text-align: center;
+        text-transform: uppercase;
+        &:hover {
+          color: #666;
+        }
+      }
+      .on {
+        border-left-color: $blue;
+        background-color: #fff;
+        color: $blue;
+        &:hover {
+          color: $blue;
+        }
       }
     }
-    span {
-      color: $navy;
-      font-weight: 400;
-      margin: 0;
-    }
   }
-  .block {
-    padding: 0 20px;
-    .header-container {
-      width: 100%;
+  .content {
+    margin-left: 161px;
+    padding: 102px 80px 0 80px;
+    .about-content {
+      height: 100vh;
+      margin: auto;
+      width: 800px;
     }
-    .list-header {
-      
+    .work-content {
+      div {
+        margin-bottom: 80px;
+        .description {
+          display: inline-block;
+          width: 30%;
+          p {
+            margin: 20px 0 0 0;
+          }
+        }
+        img {
+          box-shadow: 0px 0px 1px #999;
+          width: 60%;
+        }
+      }
     }
-    ul {
-      margin: 0 0 10px 0;
-      padding: 0 100px 0 0;
-    }
-  }
-  .min-height-block {
-    min-height: 120px;
-  }
-}
-
-.separator {
-  color: $blue;
-  display: inline-block;
-  font-weight: 400;
-  margin-left: 10px;
-  &:after {
-    content: "•";
-  }
-}
-
-.btn {
-  background-color: #ccc;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  color: #fff;
-  display: inline-block;
-  font-size: 10px;
-  font-weight: 600;
-  padding: 10px;
-  text-transform: uppercase;
-  &:hover {
-    background-color: #bbb;
   }
 }
