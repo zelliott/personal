@@ -36,7 +36,7 @@ p {
   line-height: 26px;
   margin: 0; }
   p a {
-    color: #4c869e; }
+    color: #0868ac; }
     p a:hover {
       text-decoration: underline; }
 
@@ -81,11 +81,11 @@ p.bio {
       .container .sidebar .menu > div:hover {
         color: #666; }
     .container .sidebar .menu .on {
-      border-left-color: #4c869e;
+      border-left-color: #0868ac;
       background-color: #fff;
-      color: #4c869e; }
+      color: #0868ac; }
       .container .sidebar .menu .on:hover {
-        color: #4c869e; }
+        color: #0868ac; }
   .container .content {
     margin-left: 161px;
     padding: 102px 80px 0 80px; }
