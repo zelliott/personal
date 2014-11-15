@@ -8,18 +8,18 @@
     top: 0;
     .logo {
       color: #333;
-      cursor: default;
       font-weight: 500;
       padding: 40px;
     }
     .menu {
-      > div {
+      > div, > a {
         border-left: 5px solid #eee;
         color: #999;
         cursor: pointer;
+        display: block;
         font-size: 11px;
         font-weight: 600;
-        padding: 10px 40px 10px 35px;
+        padding: 10px 40px 10px 40px;
         text-align: center;
         text-transform: uppercase;
         &:hover {
@@ -27,11 +27,11 @@
         }
       }
       .on {
-        border-left-color: $blue;
-        background-color: #fff;
-        color: $blue;
+        border-left-color: #4C869E;
+        background-color: #FFF;
+        color: #4C869E;
         &:hover {
-          color: $blue;
+          color: #4C869E;
         }
       }
     }
@@ -45,6 +45,7 @@
     .work-content,
     .projects-content {
       div {
+        height: 400px;
         margin-bottom: 80px;
         .description {
           display: inline-block;
@@ -54,6 +55,7 @@
           }
         }
         img {
+          margin-top: 71px;
           width: 60%;
         }
       }

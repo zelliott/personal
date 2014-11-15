@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
-@import 'http://yui.yahooapis.com/pure/0.4.2/pure-min.css';
+@import "http://yui.yahooapis.com/pure/0.4.2/pure-min.css";
 body {
   font-family: Avenir, Helvetica Neue, Helvetica, sans-serif; }
 
@@ -8,21 +8,18 @@ a {
   text-decoration: none; }
 
 h1 {
-  color: #fff;
-  background-color: #ccc;
-  font-size: 30px;
-  font-weight: 600;
+  color: #ccc;
+  font-size: 60px;
+  font-weight: 300;
   line-height: 200px;
   margin: 80px 0;
   text-align: center; }
 
 h2 {
-  font-family: Baskerville;
   font-weight: 600;
   margin: 0; }
   h2 span {
     color: #999;
-    font-family: Avenir, Helvetica Neue, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 300; }
 
@@ -41,13 +38,24 @@ p {
   line-height: 26px;
   margin: 0; }
   p a {
-    color: #0868ac; }
+    border-bottom: 2px solid #cee0e8;
+    color: #4C869E;
+    padding-bottom: 0px; }
     p a:hover {
-      text-decoration: underline; }
+      border-color: #8ab5c6;
+      color: #4C869E; }
 
 p.bio {
   font-size: 26px;
   line-height: 34px; }
+  p.bio span {
+    display: block;
+    margin-bottom: 5px; }
+    p.bio span b {
+      font-weight: 400 !important; }
+  p.bio .name {
+    font-size: 48px;
+    margin-bottom: 20px; }
 
 .fa-left {
   margin-right: 10px; }
@@ -71,26 +79,26 @@ p.bio {
     top: 0; }
     .container .sidebar .logo {
       color: #333;
-      cursor: default;
       font-weight: 500;
       padding: 40px; }
-    .container .sidebar .menu > div {
+    .container .sidebar .menu > div, .container .sidebar .menu > a {
       border-left: 5px solid #eee;
       color: #999;
       cursor: pointer;
+      display: block;
       font-size: 11px;
       font-weight: 600;
-      padding: 10px 40px 10px 35px;
+      padding: 10px 40px 10px 40px;
       text-align: center;
       text-transform: uppercase; }
-      .container .sidebar .menu > div:hover {
+      .container .sidebar .menu > div:hover, .container .sidebar .menu > a:hover {
         color: #666; }
     .container .sidebar .menu .on {
-      border-left-color: #0868ac;
-      background-color: #fff;
-      color: #0868ac; }
+      border-left-color: #4C869E;
+      background-color: #FFF;
+      color: #4C869E; }
       .container .sidebar .menu .on:hover {
-        color: #0868ac; }
+        color: #4C869E; }
   .container .content {
     margin-left: 161px;
     padding: 102px 80px 0 80px; }
@@ -98,6 +106,7 @@ p.bio {
       height: 100vh; }
     .container .content .work-content div,
     .container .content .projects-content div {
+      height: 400px;
       margin-bottom: 80px; }
       .container .content .work-content div .description,
       .container .content .projects-content div .description {
@@ -108,4 +117,7 @@ p.bio {
           margin: 20px 0 0 0; }
       .container .content .work-content div img,
       .container .content .projects-content div img {
+        margin-top: 71px;
         width: 60%; }
+
+/*# sourceMappingURL=screen.css.map */

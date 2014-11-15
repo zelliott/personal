@@ -8,22 +8,19 @@ a {
 }
 
 h1 {
-  color: #fff;
-  background-color: #ccc;
-  font-size: 30px;
-  font-weight: 600;
+  color: #ccc;
+  font-size: 60px;
+  font-weight: 300;
   line-height: 200px;
   margin: 80px 0;
   text-align: center;
 }
 
 h2 {
-  font-family: Baskerville;
   font-weight: 600;
   margin: 0;
   span {
     color: #999;
-    font-family: Avenir, Helvetica Neue, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 300;
   }
@@ -45,9 +42,12 @@ p {
   line-height: 26px;
   margin: 0;
   a {
+    border-bottom: 2px solid lighten($blue, 40%);
     color: $blue;
+    padding-bottom: 0px;
     &:hover {
-    text-decoration: underline;
+      border-color: lighten($blue, 20%);
+      color: $blue;
     }
   }
 }
@@ -55,4 +55,30 @@ p {
 p.bio {
   font-size: 26px;
   line-height: 34px;
+
+  span {
+    display: block;
+    margin-bottom: 5px;
+
+    b {
+      font-weight: 400 !important;
+    }
+  }
+
+  .name {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .school {
+
+  }
+
+  .majors {
+
+  }
+
+  .minors {
+
+  }
 }
