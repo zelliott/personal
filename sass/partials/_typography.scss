@@ -42,13 +42,32 @@ p {
   line-height: 26px;
   margin: 0;
   a {
-    border-bottom: 2px solid lighten($blue, 40%);
+    border-bottom: 2px solid #CEE0E8;
     color: $blue;
     padding-bottom: 0px;
     &:hover {
-      border-color: lighten($blue, 20%);
+      border-color: $blue;
       color: $blue;
     }
+  }
+}
+
+ul {
+  // border-top: 1px solid #eee;
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 20px 0 0 0;
+
+  li {
+    border-left: 4px solid #eee;
+    color: #aaa;
+    font-size: 15px;
+    padding: 4px 0 4px 10px;
+
+    // &:hover {
+    //   border-color: #ddd;
+    //   color: #999;
+    // }
   }
 }
 

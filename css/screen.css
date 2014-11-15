@@ -38,12 +38,22 @@ p {
   line-height: 26px;
   margin: 0; }
   p a {
-    border-bottom: 2px solid #cee0e8;
+    border-bottom: 2px solid #CEE0E8;
     color: #4C869E;
     padding-bottom: 0px; }
     p a:hover {
-      border-color: #8ab5c6;
+      border-color: #4C869E;
       color: #4C869E; }
+
+ul {
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 20px 0 0 0; }
+  ul li {
+    border-left: 4px solid #eee;
+    color: #aaa;
+    font-size: 15px;
+    padding: 4px 0 4px 10px; }
 
 p.bio {
   font-size: 22px;
@@ -58,7 +68,7 @@ p.bio {
     margin-bottom: 40px; }
   p.bio .summary {
     margin: 40px 0;
-    width: 50%; }
+    width: 400px; }
 
 .bio-contact {
   font-size: 24px;
