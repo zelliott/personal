@@ -46,7 +46,7 @@ p {
       color: #4C869E; }
 
 p.bio {
-  font-size: 26px;
+  font-size: 22px;
   line-height: 34px; }
   p.bio span {
     display: block;
@@ -54,8 +54,27 @@ p.bio {
     p.bio span b {
       font-weight: 400 !important; }
   p.bio .name {
-    font-size: 48px;
-    margin-bottom: 20px; }
+    font-size: 42px;
+    margin-bottom: 40px; }
+  p.bio .summary {
+    margin: 40px 0;
+    width: 50%; }
+
+.bio-contact {
+  font-size: 24px;
+  margin-top: 20px; }
+  .bio-contact a {
+    color: #333;
+    margin-right: 20px; }
+    .bio-contact a:hover {
+      color: #000; }
+  .bio-contact .email {
+    border-bottom: 2px solid #CEE0E8;
+    color: #4C869E;
+    font-size: 16px; }
+    .bio-contact .email:hover {
+      border-color: #4C869E;
+      color: #4C869E; }
 
 .fa-left {
   margin-right: 10px; }
@@ -99,6 +118,13 @@ p.bio {
       color: #4C869E; }
       .container .sidebar .menu .on:hover {
         color: #4C869E; }
+    .container .sidebar .menu span {
+      font-size: 12px;
+      position: absolute;
+      bottom: 20px;
+      color: #aaa;
+      width: 100%;
+      text-align: center; }
   .container .content {
     margin-left: 161px;
     padding: 102px 80px 0 80px; }
