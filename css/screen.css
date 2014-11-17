@@ -146,14 +146,24 @@ p.bio {
       margin-bottom: 80px; }
       .container .content .work-content div .description,
       .container .content .projects-content div .description {
-        display: inline-block;
-        width: 30%; }
+        width: 30%;
+        margin-right: 10%; }
         .container .content .work-content div .description p,
         .container .content .projects-content div .description p {
           margin: 20px 0 0 0; }
-      .container .content .work-content div img,
-      .container .content .projects-content div img {
+      .container .content .work-content div .image,
+      .container .content .projects-content div .image {
         margin-top: 71px;
         width: 60%; }
+        .container .content .work-content div .image > a img,
+        .container .content .projects-content div .image > a img {
+          width: 100%; }
+        .container .content .work-content div .image .thumbnails,
+        .container .content .projects-content div .image .thumbnails {
+          margin-top: 10px; }
+          .container .content .work-content div .image .thumbnails img,
+          .container .content .projects-content div .image .thumbnails img {
+            display: inline-block;
+            width: 25%; }
 
 /*# sourceMappingURL=screen.css.map */

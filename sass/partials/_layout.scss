@@ -56,15 +56,28 @@
         height: 400px;
         margin-bottom: 80px;
         .description {
-          display: inline-block;
           width: 30%;
+          margin-right: 10%;
           p {
             margin: 20px 0 0 0;
           }
         }
-        img {
+        .image {
           margin-top: 71px;
           width: 60%;
+
+          > a img {
+            width: 100%;
+          }
+
+          .thumbnails {
+            margin-top: 10px;
+
+            img {
+              display: inline-block;
+              width: 25%;
+            }
+          }
         }
       }
     }
