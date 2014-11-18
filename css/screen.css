@@ -40,6 +40,8 @@ p {
   p a {
     border-bottom: 2px solid #CEE0E8;
     color: #4C869E;
+    font-family: Avenir, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
     padding-bottom: 0px; }
     p a:hover {
       border-color: #4C869E;
@@ -139,31 +141,38 @@ p.bio {
     margin-left: 161px;
     padding: 102px 80px 0 80px; }
     .container .content .about-content {
-      height: 100vh; }
-    .container .content .work-content div,
-    .container .content .projects-content div {
-      height: 400px;
-      margin-bottom: 80px; }
-      .container .content .work-content div .description,
-      .container .content .projects-content div .description {
-        width: 30%;
-        margin-right: 10%; }
-        .container .content .work-content div .description p,
-        .container .content .projects-content div .description p {
-          margin: 20px 0 0 0; }
-      .container .content .work-content div .image,
-      .container .content .projects-content div .image {
-        margin-top: 71px;
-        width: 60%; }
-        .container .content .work-content div .image > a img,
-        .container .content .projects-content div .image > a img {
-          width: 100%; }
-        .container .content .work-content div .image .thumbnails,
-        .container .content .projects-content div .image .thumbnails {
-          margin-top: 10px; }
-          .container .content .work-content div .image .thumbnails img,
-          .container .content .projects-content div .image .thumbnails img {
-            display: inline-block;
-            width: 25%; }
+      height: 100vh;
+      float: left; }
+    .container .content .work-content,
+    .container .content .projects-content {
+      float: left; }
+      .container .content .work-content div,
+      .container .content .projects-content div {
+        float: left;
+        margin-bottom: 40px; }
+        .container .content .work-content div .description,
+        .container .content .projects-content div .description {
+          width: 30%;
+          margin-right: 10%; }
+          .container .content .work-content div .description p,
+          .container .content .projects-content div .description p {
+            margin: 20px 0 0 0; }
+        .container .content .work-content div .image,
+        .container .content .projects-content div .image {
+          margin-top: 71px;
+          width: 60%; }
+          .container .content .work-content div .image > a img,
+          .container .content .projects-content div .image > a img {
+            width: 100%; }
+          .container .content .work-content div .image .thumbnails,
+          .container .content .projects-content div .image .thumbnails {
+            margin-top: 10px; }
+            .container .content .work-content div .image .thumbnails img,
+            .container .content .projects-content div .image .thumbnails img {
+              display: inline-block;
+              width: 25%; }
+      .container .content .work-content img:hover,
+      .container .content .projects-content img:hover {
+        opacity: 0.8; }
 
 /*# sourceMappingURL=screen.css.map */

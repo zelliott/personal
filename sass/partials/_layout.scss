@@ -49,12 +49,14 @@
     padding: 102px 80px 0 80px;
     .about-content {
       height: 100vh;
+      float: left;
     }
     .work-content,
     .projects-content {
+      float: left;
       div {
-        height: 400px;
-        margin-bottom: 80px;
+        float: left;
+        margin-bottom: 40px;
         .description {
           width: 30%;
           margin-right: 10%;
@@ -79,6 +81,10 @@
             }
           }
         }
+      }
+
+      img:hover {
+        opacity: 0.8;
       }
     }
   }
