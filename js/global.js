@@ -32,12 +32,17 @@ $(document).ready(function() {
     if(scrollPos >= scrollProj) {
       $('.menu > div').removeClass('on');
       $('.projects-menu').addClass('on');
+
+
     } else if(scrollPos >= scrollWork && scrollPos < scrollProj) {
       $('.menu > div').removeClass('on');
       $('.work-menu').addClass('on');
+
+
     } else if(scrollPos < scrollWork) {
       $('.menu > div').removeClass('on');
       $('.about-menu').addClass('on');
+
     }
   }
 
