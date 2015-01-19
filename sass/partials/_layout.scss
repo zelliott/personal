@@ -9,7 +9,7 @@
     .logo {
       color: #333;
       font-weight: 500;
-      padding: 40px;
+      padding: 40px 0;
       opacity: 0;
     }
     .menu {
@@ -88,5 +88,42 @@
         opacity: 0.8;
       }
     }
+  }
+}
+
+@media (max-width: 1024px) {
+  .description,
+  .image {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .menu {
+    > div, > a {
+      padding: 10px 20px !important;
+      text-align: left !important;
+    }
+
+    span {
+      display: none !important;
+    }
+  }
+
+  .content {
+    margin-left: 121px !important;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+
+  .name {
+    font-size: 36px !important;
+    line-height: 46px !important;
+  }
+
+  .summary {
+    width: 100% !important;
   }
 }
